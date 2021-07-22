@@ -3,6 +3,10 @@
 <p>
     <a asp-controller="Events" asp-action="Add">Add Event</a>
 </p>
+<p>
+    <a asp-controller="Events" asp-action="Delete">Delete Event</a>
+</p>
+
 <style>
     table, th, td {
         border: 1px solid black;
@@ -14,20 +18,27 @@
  }
 
 <table style="width:100%">
+    <th>Event ID</th>
     <th>Event Name</th>
     <th>Event Description</th>
 
     
-        @foreach (KeyValuePair<string, string> meeting in ViewBag.events)
+        @foreach (var meeting in ViewBag.events)
         {
-            <tr>
-                <td>
-                    @meeting.Key
-                </td>
-                <td>
-                    @meeting.Value
-                </td>
-            </tr>
+<tr>
+    <td>
+        @meeting.Id
+    </td>
+    <td>
+        @meeting.Name
+    </td>
+    <td>
+        @meeting.Description
+    </td>
+    <td>
+        <a asp-controller="Events" asp-action="Edit" asp-route-id="@meeting.Id">Edit Event</a>
+    </td>
+</tr>
          }
 
     

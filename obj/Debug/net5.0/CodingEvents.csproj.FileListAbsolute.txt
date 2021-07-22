@@ -40,3 +40,5 @@ E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\CodingEvents.pd
 E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\CodingEvents.genruntimeconfig.cache
 E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\CodingEvents.csproj.CopyComplete
 E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\Razor\Views\Events\Add.cshtml.g.cs
+E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\Razor\Views\Events\Delete.cshtml.g.cs
+E:\Educational\CSharp\CodingEvents\CodingEvents\obj\Debug\net5.0\Razor\Views\Events\Edit.cshtml.g.cs
